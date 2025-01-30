@@ -1,4 +1,4 @@
-resource "aws_instance" "Dev_Server" {
+resource "aws_instance" "Dev-Server" {
     ami = var.ami
     instance_type = var.instance_type
     tags = {
